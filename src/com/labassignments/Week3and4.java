@@ -36,7 +36,7 @@ ArrayList<Integer> ages = new ArrayList<Integer>(Arrays.asList(3,9,23,64,2,8,28,
 		System.out.println(average);
 		
 		// 2. Create an array of strings with following names. Use loop to iterate through array and calculate average # of letters per name and print. Use another loop
-		// to iterate throuh array again and concatinate all names together seperated by spaces and print.
+		// to iterate through array again and concatinate all names together separated by spaces and print.
 		
 		String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
 		
@@ -57,9 +57,11 @@ ArrayList<Integer> ages = new ArrayList<Integer>(Arrays.asList(3,9,23,64,2,8,28,
 			//Moved outside of forloop so we have the concatNames string print once instead of every time the loop iterates
 			//If the print is inside the for loop, it'll print every time a name gets added
 			
-			//3
+			//3.	How do you access the last element of any array? Length - 1
 			
-			//4
+			//4.	How do you access the first element of any array? [0]
+
+			
 
 			//5. Create a new array of int called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
 			int[] nameLengths = new int [names.length]; //Create a new Array called nameLengths with the length(size) of the names array.
@@ -85,7 +87,7 @@ ArrayList<Integer> ages = new ArrayList<Integer>(Arrays.asList(3,9,23,64,2,8,28,
 			
 			System.out.println(repeat(word, n));
 					
-	//8. 8.	Write a method that takes two Strings, firstName and lastName, and returns a full name (the full name should be the first and the last name as a String separated by a space).
+	//8.	Write a method that takes two Strings, firstName and lastName, and returns a full name (the full name should be the first and the last name as a String separated by a space).
 			
 			String firstName = "Danielle";
 			String lastName = "Smith";
